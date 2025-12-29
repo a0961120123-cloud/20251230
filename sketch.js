@@ -102,7 +102,7 @@ function preload() {
   spriteSheet = loadImage('tom/standby/31440ALL.png');
   runSheet = loadImage('tom/run/55640ALL.png');
   jumpSheet = loadImage('tom/jump/27543ALL.png');
-  tomBoomSheet = loadImage('tom/Boom/19840ALL.png', null, () => {
+  tomBoomSheet = loadImage('tom/BOOM/19840ALL.png', null, () => {
     console.error("錯誤：找不到圖片 'tom/boom/19840ALL.png'，請檢查資料夾與檔名是否正確。");
   }); // 載入 Tom 爆炸圖片
   boomImage = loadImage('bomb/boom.png'); // 載入炸彈圖片精靈
