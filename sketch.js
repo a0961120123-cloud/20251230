@@ -102,7 +102,7 @@ function preload() {
   spriteSheet = loadImage('tom/standby/31440ALL.png');
   runSheet = loadImage('tom/run/55640ALL.png');
   jumpSheet = loadImage('tom/jump/27543ALL.png');
-  tomBoomSheet = loadImage('tom/boom/19840ALL.png'); // 載入 Tom 爆炸圖片
+  tomBoomSheet = loadImage('tom/Boom/19840ALL.png'); // 載入 Tom 爆炸圖片
   boomImage = loadImage('bomb/boom.png'); // 載入炸彈圖片精靈
   dioSheet = loadImage('DIO/DIO standby/1363119ALL.png'); // 載入 DIO 圖片
   dioInteractSheet = loadImage('DIO/DIO interact/1939110.png'); // 載入 DIO 互動圖片
